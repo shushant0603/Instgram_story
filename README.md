@@ -17,7 +17,7 @@ A mobile-focused React + Vite + Tailwind UI that mimics Instagram Stories: horiz
 ## How it works
 
 - Stories data lives in `public/data/stories.json` and is fetched at runtime.
-- `App.tsx` manages loading state, the story strip, and the viewer.
+- `App.jsx` manages loading state, the story strip, and the viewer.
 - `StoryViewer` handles tap zones (left/back, right/next), autoplay with `requestAnimationFrame`, and progress bars.
 - Auto-advance waits for the image to load, then moves to the next story after 5s; manual taps reset the timer.
 - Basic fade/scale transitions and gradients provide a smooth, mobile look.
